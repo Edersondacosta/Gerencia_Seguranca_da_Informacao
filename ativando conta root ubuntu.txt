@@ -1,0 +1,34 @@
+1a. forma
+ 
+Para habilitar dê o comando abaixo um terminal: 
+
+$ sudo passwd root 
+
+Digite e confirme a senha. 
+
+Pronto, agora para utilizar o usuário root basta se logar em um terminal e: 
+
+$ su root 
+
+e digitar a senha escolhida. 
+
+Para desabilitar a conta do root basta: 
+
+$ sudo passwd -l root 
+
+Aí a conta será desabilitada. 
+
+
+2a. forma
+ 
+Outra forma de habilitar a conta é: 
+
+$ sudo su
+$ passwd 
+
+Digite e confirme a senha. 
+
+(Essa segunda forma foi contribuída pelo moderador chemonz) 
+
+ATENÇÃO: Muito cuidado ao usar a conta de ROOT, tenha certeza do que você faz, pois pode estragar o sistema.
+ 
